@@ -1,0 +1,54 @@
+h1{
+ font-family: 'Roboto Slab', serif;
+}
+
+h2{
+  font-family: 'Bitter', serif;
+}
+
+body {
+  background-image: url(http://blog.westelm.com/wp-content/uploads/2014/06/6_6_tabletips_01.jpg);
+  background-size:cover;
+}
+
+form {
+  background-color: rgba(0,0,0,0.5);
+  max-width: 30%;
+  font-family: 'Signika', sans-serif; font-weight: 300;
+  text-align: left;
+  line-height: 2em;
+  padding:3em;
+  margin:100 auto;
+  color: white;
+  border-radius: 5%;
+}
+
+label {
+  width:90px;
+  display:inline-block;
+}
+
+.divider {
+    margin-top: 20px;
+    text-align:center;
+    text-transform: uppercase;
+}
+.divider span {
+    position:relative;
+}
+.divider span:before, .divider span:after {
+    border-top: 2px solid white;
+    content:"";
+    position: absolute;
+    top: 15px;
+    right: 2em;
+    bottom: 0;
+    width: 100%;
+}
+.divider span:after {
+    position: absolute;
+    top: 15px;
+    left:2em;
+    right:0;
+    bottom: 0;
+}

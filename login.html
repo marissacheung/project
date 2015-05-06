@@ -1,0 +1,41 @@
+<!doctype=<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning about forms</title>
+  <link href='http://fonts.googleapis.com/css?family=Bitter:700|Signika:300|Roboto+Slab:700|Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+</head>
+<body>
+    <form method="post" action="/login">
+    <h1>Sign in</h1>
+    <label>Email: </label> 
+      <input id="email" type="email" name="email">
+      <br>
+    <label>Password: </label> 
+      <input id="password" type="password" name="password">
+      <br>
+      <br>
+    <input type="submit" name="submit" value="Login"></label>
+
+<div class="divider">
+    <h2><span>or</span><h2></div>
+
+  <h1>Sign up now</h1>
+  <form method="post" action="/signup">
+  <label>First name:</label> 
+    <input  id="firstname" type="text" name="firstname">
+    <br>
+  <label>Last name:</label> 
+    <input id="lastname" type="text" name="lastname">
+    <br>
+  <label>Email:</label> 
+    <input id="email" type="email" name="email">
+    <br>
+  <label>Password:</label> 
+    <input id="password" type="password" name="password">
+    <br>
+    <br>
+  <input type="submit" name="submit">
+  </form>
+</body>
+</html>
