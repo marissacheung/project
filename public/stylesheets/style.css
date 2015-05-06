@@ -6,6 +6,15 @@ h2{
   font-family: 'Bitter', serif;
 }
 
+h3{
+   -webkit-margin-before: 1em;
+  -webkit-margin-after: 0.5em;
+}
+
+h4{
+   -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
+}
 body {
   background-image: url(http://blog.westelm.com/wp-content/uploads/2014/06/6_6_tabletips_01.jpg);
   background-size:cover;
@@ -13,12 +22,12 @@ body {
 
 form {
   background-color: rgba(0,0,0,0.5);
-  max-width: 30%;
+  max-width: 50%;
   font-family: 'Signika', sans-serif; font-weight: 300;
   text-align: left;
   line-height: 2em;
   padding:3em;
-  margin:100 auto;
+  margin:100px auto;
   color: white;
   border-radius: 5%;
 }

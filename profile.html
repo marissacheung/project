@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile|Epicurious</title>
+    <link href='http://fonts.googleapis.com/css?family=Bitter:700|Signika:300|Roboto+Slab:700|Abril+Fatface' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+</head>
+<body>
+<form method="post" action="/profile/edit">
+  <h1>Tell us more about yourself!</h1>
+  <h3>Your personal profile</h3>
+  <input type="text" name="firstname" placeholder="First Name">
+  <input type="text" name="lastname" placeholder="Last Name"><br>
+  <input type="email" name="email" placeholder="Email address"><br>
+  <label for="gender">Gender</label>
+  <input type="radio" name="gender">Male
+  <input type="radio" name="gender">Female<br>
+  <label for="age">Age</label>
+  <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" value="0"
+       oninput="amount.value=rangeInput.value">                                                       
+  <output name="amount" for="rangeInput">0</output>
+  <h3>Your favorite foods</h3>
+  <input type="checkbox" name="finedining">Fine Dining
+  <input type="checkbox" name="bar-bistro">Bar/Bistro
+  <input type="checkbox" name="cafe-bakery">Cafe/Bakery
+  <input type="checkbox" name="streetfood">Street food
+  <input type="checkbox" name="Pizza">Pizza/Pasta<br>
+  <input type="checkbox" name="steakhouse">Steakhouse
+  <input type="checkbox" name="japanese">Japanese
+  <input type="checkbox" name="korean">Korean
+  <input type="checkbox" name="chinese">Chinese
+  <input type="checkbox" name="Pho">Pho
+  <input type="checkbox" name="Indian">Indian<br>
+  <h3>Your Area</h3>
+  <select name="dropdown">
+        <option value="downtown">Downtown Vancouver</option>
+        <option value="westend">West End</option>
+        <option value="coalharbour">Coal Harbour</option>
+        <option value="gastown">Gastown</option>
+        <option value="chinatown">Chinatown</option>
+        <option value="downtowneastside">Downtown Eastside</option>
+        <option value="arbutus">Arbutus Ridge</option>
+        <option value="Dubar-Southlands">Dunbar-Southlands</option>
+        <option value="Granvilleisland">Granville Island</option>
+        <option value="oakridge">Oakridge</option>
+        <option value="kerrisdale">Kerrisdale</option>
+        <option value="kitsilano">Kitsilano</option>
+        <option value="marpole">Marpole</option>
+        <option value="shaughnessy">Shaughnessy</option>
+        <option value="westpointgrey">West Point Grey</option>
+        <option value="commercialdrive">Commercial Drive</option>
+        <option value="mountpleasant">Mount Pleasant</option>
+        <option value="westforth">West 4th</option>
+        <option value="southmain">South Main</option>
+        <option value="richmond">Richmond</option>
+        <option value="burnaby">Burnaby</option>
+        <option value="surrey">Surrey</option>
+  </select>
+
+  <h3>Change your password</h3>
+  <input type="password" name="oldpassword" placeholder="old password">
+  <input type="password" name="newpassword" placeholder="new password"><br><br>
+  <button type="submit" name="profilesubmit">Create Profile</button>
+</form>
+
+</body>
+</html>
